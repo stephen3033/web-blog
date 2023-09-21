@@ -6,5 +6,5 @@
 - in the future, this is going to be designed as a fullstack application to make it easier to write blog posts
 - this blog is also going to link to all personal projects and applications under current development
 
-# Link to website (http://stephen-miller.net)
+# Link to website
 [Stephen's Blog](http://stephen-miller.net)
