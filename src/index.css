@@ -1,5 +1,10 @@
 body {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.441), rgba(255, 255, 255, 0.87)), url('assets/mountain.png');
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.5),
+      rgb(255, 255, 255)
+    ),
+    url("assets/mountain.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

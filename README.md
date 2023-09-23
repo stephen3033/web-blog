@@ -7,4 +7,5 @@
 - this blog is also going to link to all personal projects and applications under current development
 
 # Link to website
+
 [Stephen's Blog](http://stephen-miller.net)
