@@ -13,11 +13,7 @@ function ProfileHeader() {
       >
         <img src={githubLogo} alt="GitHub" className="github-logo" />
       </a>
-      <img
-        src={profilePic}
-        alt="Stephen Miller"
-        className="profile-image"
-      />
+      <img src={profilePic} alt="Stephen Miller" className="profile-image" />
       <a
         href="https://www.linkedin.com/in/stephen-miller-3033/"
         target="_blank"

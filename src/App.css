@@ -41,3 +41,72 @@
 .linkedin-logo:hover {
   filter: drop-shadow(0 0 7px #00000088);
 }
+
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0); /* Translucent background */
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.menu-icon {
+  background: none;
+  border: none;
+  color: rgb(15, 15, 15);
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.9); /* Translucent background */
+  position: absolute;
+  top: 60px;
+  right: -200px;
+  transition: right 0.3s ease-in-out;
+}
+
+.nav-links.open {
+  right: 0;
+}
+
+.nav-links li {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgb(22, 22, 22);
+  font-size: 16px;
+}
+
+/* Add media queries for mobile responsiveness */
+@media screen and (min-width: 768px) {
+  .navbar {
+    align-items: center;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0); /* Translucent background */
+  }
+
+  .nav-links {
+    position: static;
+    flex-direction: row;
+    background-color: transparent;
+    right: 0;
+  }
+
+  .nav-links li {
+    margin: 0 20px;
+  }
+}
