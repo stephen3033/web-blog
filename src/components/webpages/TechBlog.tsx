@@ -3,7 +3,7 @@ import React from 'react';
 function TechBlog() {
     return (
         <>
-        TechBlog
+        Tech Blog
         </>
     );
 }

@@ -10,18 +10,20 @@ import Writings from "./components/webpages/Writings.tsx";
 
 function App() {
   return (
-    <div className="web-page">
+    <>
       <Router>
-        <ProfileHeader />
         <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/writings" element={<Writings />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/tech-blog" element={<TechBlog />} />
-        </Routes>
+        <div className="web-page">
+          <ProfileHeader />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/writings" element={<Writings />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/tech-blog" element={<TechBlog />} />
+          </Routes>
+        </div>
       </Router>
-    </div>
+    </>
   );
 }
 
